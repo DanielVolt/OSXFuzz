@@ -84,3 +84,4 @@ if __name__ == "__main__":
 	print("++ Output Path: " + output_path)
 	repro = Reproducer(input_path,output_path)
 	repro.create_repro()
+	repro.create_makefile()
